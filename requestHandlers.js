@@ -20,6 +20,7 @@ function start(response) {
 		'<charset=UTF-8" />' +
 		'<head>' +
 		'<body>' +
+		'<h1>Testing</h1>' + 
 		'<form action="/upload" enctype="multipart/form-data" method="post">' +
 		'<input type="file" name="upload" multiple="multiple"/>' +
 		'<input type="submit" value="Upload file" />' +
